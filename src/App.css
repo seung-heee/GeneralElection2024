@@ -1,38 +1,60 @@
+@font-face {
+    font-family: 'HSBombaram';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font_bombaram {
+    font-family: 'HSBombaram';
+}
+
+@media (min-width: 375px) {
+    .App {
+        width: 375px;
+    }
+}
+
+@media (max-width:500px) {
+    .App {
+        width: 100vw;
+    }
+}
+
+#root {
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
 .App {
-  text-align: center;
+    min-height: 100vh;
+    background-image: url('../public/assets/img/mainImg.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF_HailSnow';
+    min-height: 100vh;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.verticalLeft {
+    writing-mode: vertical-rl;
+    color: #DEDEDE;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.verticalRight {
+    writing-mode: vertical-rl;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    color: #DEDEDE;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottomText {
+    letter-spacing: 15px;
 }
