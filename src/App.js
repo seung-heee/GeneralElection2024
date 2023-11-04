@@ -5,6 +5,7 @@ import Election from './pages/Election';
 import Candidate from './pages/Candidate';
 import Map from './pages/Map';
 import About from './pages/About';
+import CandidateInfo from './pages/CandidateInfo';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/Candidate' element={<Candidate />} />
           <Route path='/Map' element={<Map />} />
           <Route path='/About' element={<About />} />
+          <Route path='/CandidateInfo' element={<CandidateInfo />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -74,6 +74,16 @@ body {
 
 .TItleIMG {
     background-image: url('../public/assets/img/Pagetitle.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.TItleIMG2 {
+    background-image: url('../public/assets/img/TitleLine.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .Subtitle {
@@ -101,7 +111,7 @@ body {
     margin: 8px;
     background-color: #eee;
     width: 60%;
-    font-size: 20px;
+    font-size: 23px;
     padding: 5px;
     border-radius: 10px;
     box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);

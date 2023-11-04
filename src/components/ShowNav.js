@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Back from "./Back";
 import BottomTextOnly from "./BottomTextOnly";
 
 const ShowNav = ({ setIsOpen }) => {

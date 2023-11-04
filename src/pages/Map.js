@@ -10,7 +10,7 @@ const Map = () => {
         <div>
             <Navbar />
             <div className="flex flex-col items-center justify-center text-center mt-8">
-                <PageTitle title={'배치도'} />
+                <PageTitle title={'배치도'} line={false} />
                 <div className="px-10 py-2 break-keep">2024 총선거가 진행되는 장소는<br />
                     <span className="pointColor"> 학생회관 4층 체육관</span>입니다.<br />
                     아래 <span className="pointColor">단대 및 학부(과)의 배치도</span>를 <br /> 참고하여 주시기 바랍니다.

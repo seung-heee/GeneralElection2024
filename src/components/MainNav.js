@@ -16,7 +16,7 @@ const MainNav = () => {
                         <ShowNav />
                     )}
                 </li>
-                <li className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-20 navVersion`} onClick={() => setIsOpen(!isOpen)}>
+                <li className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-40 navVersion`} onClick={() => setIsOpen(!isOpen)}>
                     <div className="ham-bar bar-top menugreen"></div>
                     <div className="ham-bar bar-mid menugreen"></div>
                     <div className="ham-bar bar-bottom menugreen"></div>

@@ -14,7 +14,7 @@ const About = () => {
             <Navbar />
 
             <div className="flex flex-col items-center justify-center text-center mt-8">
-                <PageTitle title={'만든이들'} />
+                <PageTitle title={'만든이들'} line={false} />
                 <div className="w-full flex justify-evenly py-8">
                     <div>
                         <img src={images.LikelionLogo} alt="멋사로고" className="w-28" />

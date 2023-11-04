@@ -9,6 +9,7 @@
 
 .NavTitle {
     writing-mode: vertical-rl;
+    margin-top: 0px;
 }
 
 .NavBtn {
@@ -83,7 +84,7 @@
     width: 100vw;
     opacity: 0;
     transition: opacity .6s ease-in-out;
-    z-index: 10;
+    z-index: 30;
 }
 
 .off-screen-menu.open {
