@@ -5,6 +5,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GmarketSansTTFLight';
+    src: url('../public/assets/font/GmarketSansTTFLight.ttf')
+}
+
+.Font_gmarket {
+    font-family: 'GmarketSansTTFLight';
+}
+
 .Font_bombaram {
     font-family: 'HSBombaram';
 }
@@ -57,4 +66,40 @@ body {
 
 .bottomText {
     letter-spacing: 15px;
+}
+
+.Maintitle {
+    writing-mode: vertical-rl;
+}
+
+.TItleIMG {
+    background-image: url('../public/assets/img/Pagetitle.png');
+}
+
+.Subtitle {
+    color: #d94925;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+
+/* 입후보자 정보 */
+
+.CandidateBtn {
+    margin: 8px;
+    background-color: #eee;
+    width: 60%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
+}
+
+
+/* 배치도 */
+
+.pointColor {
+    color: #d94925;
 }
