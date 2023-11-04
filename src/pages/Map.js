@@ -2,6 +2,8 @@ import Back from "../components/Back";
 import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle";
 import { images } from '../utils/images';
+import '../App.css';
+import BottomTextOnly from "../components/BottomTextOnly";
 
 const Map = () => {
     return (
@@ -26,6 +28,7 @@ const Map = () => {
                     <img src={images.예대} alt={'배치도'} />
                     <img src={images.글경대} alt={'배치도'} />
                 </div>
+                <div className="last"></div>
             </div>
         </div>
     )

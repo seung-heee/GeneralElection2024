@@ -82,6 +82,18 @@ body {
     margin: 10px auto;
 }
 
+.last:last-child {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bottomText {
+    letter-spacing: 15px;
+    padding: 3px;
+}
+
 
 /* 입후보자 정보 */
 

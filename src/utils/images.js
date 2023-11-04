@@ -9,4 +9,5 @@ export const images = {
     예대: PATH + 'assets/img/예대.png',
     인문대: PATH + 'assets/img/인문대.png',
     신대: PATH + 'assets/img/신대.png',
+    LikelionLogo: PATH + 'assets/img/logo/likelionLogo.png',
 };

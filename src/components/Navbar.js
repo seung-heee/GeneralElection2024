@@ -15,7 +15,7 @@ const Navbar = () => {
                 <li className='text-2xl'><Link to="/">총선거</Link></li>
                 <li className={`off-screen-menu ${isOpen ? 'open fixed slideInDown' : 'hidden'} w-full tracking-[1px]`}>
                     {isOpen && (
-                        <ShowNav />
+                        <ShowNav setIsOpen={setIsOpen} />
                     )}
                 </li>
                 <li className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-20 navVersion`} onClick={() => setIsOpen(!isOpen)}>
