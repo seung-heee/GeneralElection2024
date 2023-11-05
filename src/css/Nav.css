@@ -123,3 +123,21 @@
         transform: translateY(0);
     }
 }
+
+.NavTitle {
+    background-image: url('../../public/assets/img/nav/verti.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    height: 180px;
+    text-align: center;
+}
+
+.navHori {
+    background-image: url('../../public/assets/img/nav/hori.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    width: 180px;
+    text-align: center;
+}

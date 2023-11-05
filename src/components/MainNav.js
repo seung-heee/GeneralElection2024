@@ -10,7 +10,7 @@ const ShowNav = ({ setIsOpen }) => {
     return (
         <div className="ShowNav relative w-full">
             <ul className="min-h-screen flex flex-col items-center justify-center gap-y-6 text-3xl">
-                <div className="NavTitle mb-10">총선거</div>
+                <div className="NavTitle mb-2 text-4xl">총선거</div>
                 <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Election" onClick={closeNav}>총선거란</Link></li>
                 <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Candidate" onClick={closeNav}>입후보자 정보</Link></li>
                 <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Map" onClick={closeNav}>배치도</Link></li>
@@ -32,7 +32,7 @@ const MainNav = () => {
                 {location.pathname !== '/' &&
                     <>
                         <li className="text-2xl w-10"></li>
-                        <li className="text-2xl"><Link to='/'>총선거</Link></li>
+                        <li className="text-2xl navHori"><Link to='/'>총선거</Link></li>
                     </>}
                 <li className={`off-screen-menu ${isOpen ? 'open fixed fade-in-top ' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
                     {isOpen && (

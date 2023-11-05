@@ -5,8 +5,8 @@ const Main = () => {
     return (
         <div className='relative'>
             <div className='flex flex-col text-center justify-center items-center'>
-                <p className='text-xl focus-in-expand'>2024</p>
-                <p className='text-5xl Maintitle text-center my-10 '>총선거</p>
+                <p className='text-xl  focus-in-expand'>2024</p>
+                <p className='text-5xl Maintitle text-center my-10'>총선거</p>
                 <p className='text-2xl mb-3 focus-in-expand'>학생자치기구의 새로운 도약</p>
                 <div className='Font_gmarket'>
                     <p>2023.11.20-11.22</p>
