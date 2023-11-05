@@ -34,9 +34,13 @@ export const images = {
             사범_공약3: PATH + 'assets/img/소견서 예시/사범대학/사범_소견3.png'
         },
         인문대학: {
-            인문_공약1: PATH + 'assets/img/소견서 예시/인문대학/인문_소견1.png',
-            인문_공약1: PATH + 'assets/img/소견서 예시/인문대학/인문_소견2.png',
+            인문_공약1: PATH + 'assets/img/소견서 예시/인문대학/인문_소견1.png'
+        }
+    },
+    // 유세영상
+    유세영상: {
+        인문대학: {
+            인문_영상: PATH + 'assets/video/인문영상.mp4'
         }
     }
-    // 유세영상
 };
