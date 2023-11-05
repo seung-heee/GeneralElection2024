@@ -7,14 +7,14 @@ const CandidateContent = () => {
 
     const navigate = useNavigate();
 
-    const HandleManifesto = (e) => {
-        navigate('/Manifesto', { state: { deparment: title } });
+    const HandleManifesto = () => {
+        navigate('/Manifesto', { state: { title: title } });
     }
-    const HandleCampaignVideo = (e) => {
-        navigate('/CampaignVideo', { state: { deparment: title } });
+    const HandleCampaignVideo = () => {
+        navigate('/CampaignVideo', { state: { title: title } });
     }
-    const HandlePledgeBook = (e) => {
-        navigate('/PledgeBook', { state: { deparment: title } });
+    const HandlePledgeBook = () => {
+        navigate('/PledgeBook', { state: { title: title } });
     }
 
     return (

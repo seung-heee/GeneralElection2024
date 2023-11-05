@@ -1,12 +1,12 @@
+import { useLocation } from "react-router-dom";
 import PageTitle from "../PageTitle";
 
 const CampaignVideo = () => {
+    const location = useLocation();
+    const title = location.state.title;
+
     return (
-        <div className="relative">
-            <div className="flex flex-col items-center justify-center text-center mt-8">
-                <PageTitle title={''} />
-            </div>
-        </div>
+        <div>{title}</div>
     )
 }
 

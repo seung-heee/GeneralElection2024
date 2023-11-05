@@ -12,12 +12,12 @@ const About = () => {
                 <PageTitle title={'만든이들'} line={false} />
                 <div className="w-full flex justify-evenly py-8">
                     <div>
-                        <img src={images.LikelionLogo} alt="멋사로고" className="w-28" />
+                        <div className="w-28 h-28" ><img src={images.LikelionLogo} alt="멋사로고" className="p-2" /></div>
                         <p className="mt-2 -mb-1">성결대학교</p>
                         <p>멋쟁이사자처럼</p>
                     </div>
                     <div>
-                        <img src={images.LikelionLogo} alt="선관위로고" className="w-28" />
+                        <div className="w-28 h-28" ><img src={images.선관위} alt="멋사로고" /></div>
                         <p className="mt-2 -mb-1">제 40대</p>
                         <p>선거관리위원회</p>
                     </div>

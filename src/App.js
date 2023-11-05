@@ -10,6 +10,9 @@ import Voting from './pages/Voting';
 import MainNav from './components/MainNav';
 import CandidateContent from './pages/CandidateContent';
 import BottomTextOnly from './components/BottomTextOnly';
+import CampaignVideo from './components/Content/CampaignVideo';
+import Manifesto from './components/Content/Manifesto';
+import PledgeBook from './components/Content/PledgeBook';
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
           <Route path='/CandidateInfo' element={<CandidateInfo />} />
           <Route path='/Voting' element={<Voting />} />
           <Route path='/CandidateContent' element={<CandidateContent />} />
+          <Route path='/Manifesto' element={<Manifesto />} />
+          <Route path='/PledgeBook' element={<PledgeBook />} />
+          <Route path='/CampaignVideo' element={<CampaignVideo />} />
         </Routes>
       </div>
     </BrowserRouter>
