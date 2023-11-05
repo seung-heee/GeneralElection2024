@@ -32,7 +32,7 @@ const CandidateInfo = () => {
                             <>
                                 {title === candidate.college ?
                                     <>
-                                        <button className={`CandidateBtn ${candidate.department = '' ? 'hidden' : ''}`}>{candidate.department}</button>
+                                        <button className={`${candidate.department === '' ? "hidden" : ''} CandidateBtn`}>{candidate.department}</button>
                                     </> : <></>}
                             </>
                         )

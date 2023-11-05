@@ -5,7 +5,7 @@ import PageTitle from "./PageTitle";
 
 const Default = () => {
     return (
-        <div>
+        <div className="relative">
             <Back />
             <Navbar />
 

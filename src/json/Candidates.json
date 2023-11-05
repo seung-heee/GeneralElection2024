@@ -7,7 +7,7 @@
     },
     {
         "id": 2,
-        "college": "IT공과대학",
+        "college": "IT 공과대학",
         "department": "",
         "CandidateForDepartment": false,
         "number": 1
@@ -70,21 +70,21 @@
     },
     {
         "id": 11,
-        "college": "IT공과대학",
+        "college": "IT 공과대학",
         "department": "컴퓨터공학과",
         "CandidateForDepartment": true,
         "number": 1
     },
     {
         "id": 12,
-        "college": "IT공과대학",
+        "college": "IT 공과대학",
         "department": "정보통신공학과",
         "CandidateForDepartment": true,
         "number": 1
     },
     {
         "id": 13,
-        "college": "IT공과대학",
+        "college": "IT 공과대학",
         "department": "미디어소프트웨어학과",
         "CandidateForDepartment": true,
         "number": 1

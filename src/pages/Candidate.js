@@ -29,7 +29,7 @@ const Candidate = () => {
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>신학대학</button>
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>사범대학</button>
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>사회과학대학</button>
-                    <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>IT 공과대학</button>
+                    <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>IT공과대학</button>
                 </div>
 
             </div>

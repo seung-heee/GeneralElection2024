@@ -11,17 +11,18 @@ const MainNav = () => {
     return (
         <div className="Nav flex justify-center items-center text-lg p-3">
             <ul className='container flex justify-end items-center h-full '>
-                <li className={`off-screen-menu ${isOpen ? 'open fixed slideInDown' : 'hidden'} tracking-[1px]`}>
+                <li className={`off-screen-menu ${isOpen ? 'open fixed slideInDown' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
                     {isOpen && (
                         <ShowNav />
                     )}
                 </li>
-                <li className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-40 navVersion`} onClick={() => setIsOpen(!isOpen)}>
-                    <div className="ham-bar bar-top menugreen"></div>
-                    <div className="ham-bar bar-mid menugreen"></div>
-                    <div className="ham-bar bar-bottom menugreen"></div>
-                </li>
             </ul >
+            <div className={`hamburger-menu ${isOpen ? 'active' : ''} cursor-pointer z-40 navVersion`} onClick={() => setIsOpen(!isOpen)}>
+                <div className="ham-bar bar-top menugreen"></div>
+                <div className="ham-bar bar-mid menugreen"></div>
+                <div className="ham-bar bar-bottom menugreen"></div>
+            </div>
+
         </div >
     )
 }
