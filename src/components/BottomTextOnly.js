@@ -1,7 +1,7 @@
 const BottomTextOnly = () => {
     return (
         <>
-            <div className="bottomText text-center last">제40대선거관리위원회</div>
+            <div className="mt-5 bottomText absolute text-center left-0 right-0 bottom-1">제40대선거관리위원회</div>
         </>
     )
 }

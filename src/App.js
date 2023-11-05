@@ -8,12 +8,15 @@ import About from './pages/About';
 import CandidateInfo from './pages/CandidateInfo';
 import Voting from './pages/Voting';
 import MainNav from './components/MainNav';
-import HomeIcon from './components/HomeIcon';
+import CandidateContent from './pages/CandidateContent';
+import BottomTextOnly from './components/BottomTextOnly';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App Font_bombaram ">
+      <div className="App Font_bombaram relative">
+        <div div className="leftDate absolute top-16 left-1 verticalLeft text-3xl" >2023.11.20-11.22</div>
+        <div className="rightDate absolute bottom-48 right-1 verticalRight text-3xl">2023.11.20-11.22</div>
         <MainNav />
         <Routes>
           <Route path='/' element={<Main />} />
@@ -23,6 +26,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/CandidateInfo' element={<CandidateInfo />} />
           <Route path='/Voting' element={<Voting />} />
+          <Route path='/CandidateContent' element={<CandidateContent />} />
         </Routes>
       </div>
     </BrowserRouter>

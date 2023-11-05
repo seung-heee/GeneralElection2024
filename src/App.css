@@ -121,6 +121,22 @@ body {
     -moz-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
 }
 
+.CandidateBtn:last-child {
+    margin-bottom: 40px;
+}
+
+.CandidateBtn0 {
+    margin: 15px;
+    background-color: #eee;
+    width: 60%;
+    font-size: 23px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
+}
+
 
 /* 배치도 */
 
@@ -220,12 +236,4 @@ body {
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-.rightDate {
-    bottom: 10%;
-}
-
-.leftDate {
-    top: 5%;
 }

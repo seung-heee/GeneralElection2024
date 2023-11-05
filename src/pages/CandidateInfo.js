@@ -1,17 +1,21 @@
-import Back from "../components/Back";
 import PageTitle from "../components/PageTitle";
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Candidates from '../json/Candidates.json';
+import CandidateContent from "./CandidateContent";
 
 const CandidateInfo = () => {
     const location = useLocation();
     const title = location.state.title;
 
+    const navigate = useNavigate();
+
+    const HandleContent = (e) => {
+        navigate('/CandidateContent', { state: { title: e.target.innerText } });
+    }
+
     return (
         <div className="relative">
-            <Back />
-
-            <div className="flex flex-col items-center justify-center text-center mt-8">
+            <div className="flex flex-col items-center justify-center text-center">
                 <PageTitle title={title} line={true} />
             </div>
 
@@ -19,7 +23,7 @@ const CandidateInfo = () => {
             <div>
                 <div className="Subtitle text-center">-단과대학-</div>
                 <div className="flex flex-col justify-center items-center">
-                    <button className="CandidateBtn">{title}</button>
+                    <button className="CandidateBtn" onClick={(e) => { HandleContent(e) }}>{title}</button>
                 </div>
             </div>
             <div>
@@ -30,13 +34,18 @@ const CandidateInfo = () => {
                             <>
                                 {title === candidate.college ?
                                     <>
-                                        <button className={`${candidate.department === '' ? "hidden" : ''} CandidateBtn`}>{candidate.department}</button>
+                                        <button
+                                            onClick={(e) => { HandleContent(e) }}
+                                            className={`${candidate.department === '' ? "hidden" : ''} CandidateBtn`}>
+                                            {candidate.department}
+                                        </button>
                                     </> : <></>}
                             </>
                         )
                     })}
                 </div>
             </div>
+            <div className="bottomText fixed text-center left-0 right-0 bottom-1">제40대선거관리위원회</div>
         </div>
     )
 }

@@ -13,11 +13,10 @@ const LikelionPeople = () => {
                 <p className="text-sm"><Link to='#' className="flex items-center justify-center"><AiOutlineInstagram className="mr-1" /><span>Likelion_sku</span></Link></p>
             </div>
 
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-3">
                 <Person id={1} />
                 <Person id={2} />
                 <Person id={3} />
-                <Person id={4} />
             </div>
         </div>
     )

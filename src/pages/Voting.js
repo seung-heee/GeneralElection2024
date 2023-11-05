@@ -1,10 +1,8 @@
-import Back from "../components/Back";
 import PageTitle from "../components/PageTitle";
 
 const Voting = () => {
     return (
         <div className="relative">
-            <Back />
             <div className="flex flex-col items-center justify-center text-center">
                 <PageTitle title={'투표율'} />
             </div>
@@ -14,6 +12,7 @@ const Voting = () => {
                 해당 기준을 충족하지 못할 시, 개표는 진행되지 않으며 해당 후보자는 <span className="pointColor">'투표율 미달'로 인한 미개표 '낙선'</span>이므로 이점 참고 부탁드리며
                 많은 관심 부탁드립니다.
             </div>
+
         </div>
     )
 }

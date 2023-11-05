@@ -1,11 +1,11 @@
 [{
         "id": 1,
-        "image": "assets/img/person/seunghee.png",
+        "image": "assets/img/person/taekwon.png",
         "logo": "assets/img/logo/likelionLogo.png",
-        "name": "노승희",
-        "department": "미디어소프트웨어학과 20",
+        "name": "정택원",
+        "department": "컴퓨터공학과 19",
         "position": "운영진",
-        "role": "Front-End"
+        "role": "Back-End"
     }, {
         "id": 2,
         "image": "assets/img/person/seunghee.png",
@@ -16,12 +16,12 @@
         "role": "Front-End"
     }, {
         "id": 3,
-        "image": "assets/img/person/seunghee.png",
+        "image": "assets/img/person/minji.png",
         "logo": "assets/img/logo/likelionLogo.png",
-        "name": "노승희",
-        "department": "미디어소프트웨어학과 20",
+        "name": "남민지",
+        "department": "컴퓨터공학과 21",
         "position": "운영진",
-        "role": "Front-End"
+        "role": "Back-End"
     }, {
         "id": 4,
         "image": "assets/img/person/seunghee.png",

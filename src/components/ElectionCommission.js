@@ -12,7 +12,7 @@ const ElectionCommission = () => {
                 <p className="text-sm"><Link to='#' className="flex items-center justify-center"><AiOutlineInstagram className="mr-1" /><span>Likelion_sku</span></Link></p>
             </div>
 
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 mb-16">
                 <Person id={5} />
                 <Person id={6} />
                 <Person id={7} />
