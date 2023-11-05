@@ -7,11 +7,14 @@ import Map from './pages/Map';
 import About from './pages/About';
 import CandidateInfo from './pages/CandidateInfo';
 import Voting from './pages/Voting';
+import MainNav from './components/MainNav';
+import HomeIcon from './components/HomeIcon';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App Font_bombaram ">
+        <MainNav />
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/Election' element={<Election />} />

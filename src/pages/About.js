@@ -2,7 +2,6 @@ import Back from "../components/Back";
 import BottomTextOnly from "../components/BottomTextOnly";
 import ElectionCommission from "../components/ElectionCommission";
 import LikelionPeople from "../components/LikelionPeople";
-import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle";
 import { images } from '../utils/images';
 
@@ -11,9 +10,8 @@ const About = () => {
     return (
         <div className="relative">
             <Back />
-            <Navbar />
 
-            <div className="flex flex-col items-center justify-center text-center mt-8">
+            <div className="flex flex-col items-center justify-center text-center">
                 <PageTitle title={'만든이들'} line={false} />
                 <div className="w-full flex justify-evenly py-8">
                     <div>

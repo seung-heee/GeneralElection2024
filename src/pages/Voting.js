@@ -1,13 +1,10 @@
 import Back from "../components/Back";
-import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle";
 
 const Voting = () => {
     return (
         <div className="relative">
             <Back />
-            <Navbar />
-
             <div className="flex flex-col items-center justify-center text-center">
                 <PageTitle title={'투표율'} />
             </div>

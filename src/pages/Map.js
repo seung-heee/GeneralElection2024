@@ -1,15 +1,11 @@
-import Back from "../components/Back";
-import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle";
 import { images } from '../utils/images';
 import '../App.css';
-import BottomTextOnly from "../components/BottomTextOnly";
 
 const Map = () => {
     return (
         <div>
-            <Navbar />
-            <div className="flex flex-col items-center justify-center text-center mt-8">
+            <div className="flex flex-col items-center justify-center text-center">
                 <PageTitle title={'배치도'} line={false} />
                 <div className="px-10 py-2 break-keep">2024 총선거가 진행되는 장소는<br />
                     <span className="pointColor"> 학생회관 4층 체육관</span>입니다.<br />

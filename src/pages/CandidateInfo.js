@@ -1,5 +1,4 @@
 import Back from "../components/Back";
-import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle";
 import { useLocation } from 'react-router-dom';
 import Candidates from '../json/Candidates.json';
@@ -11,7 +10,6 @@ const CandidateInfo = () => {
     return (
         <div className="relative">
             <Back />
-            <Navbar />
 
             <div className="flex flex-col items-center justify-center text-center mt-8">
                 <PageTitle title={title} line={true} />

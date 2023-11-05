@@ -1,5 +1,4 @@
 import Back from "../components/Back";
-import Navbar from "../components/Navbar";
 import PageTitle from "../components/PageTitle";
 import '../App.css';
 import { useNavigate } from "react-router-dom";
@@ -15,7 +14,6 @@ const Candidate = () => {
 
         <div className="relative">
             <Back />
-            <Navbar />
             <div className="flex flex-col items-center justify-center text-center">
                 <PageTitle title={'입후보자 정보'} line={true} />
                 <div className="p-6 break-keep">

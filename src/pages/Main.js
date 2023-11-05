@@ -1,12 +1,10 @@
 import '../App.css';
 import Back from '../components/Back';
-import MainNav from '../components/MainNav';
 
 const Main = () => {
     return (
         <div className='min-h-screen relative'>
             <Back />
-            <MainNav />
 
             <div className='flex flex-col text-center justify-center items-center h-screen'>
                 <p className='text-xl focus-in-expand'>2024</p>
