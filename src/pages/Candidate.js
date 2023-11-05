@@ -26,7 +26,6 @@ const Candidate = () => {
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>IT공과대학</button>
                 </div>
             </div>
-            <div className="bottomText absolute text-center left-0 right-0 bottom-1">제40대선거관리위원회</div>
         </div>
     )
 }

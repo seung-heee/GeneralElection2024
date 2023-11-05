@@ -20,7 +20,7 @@ const CandidateContent = () => {
     return (
         <div className="relative">
             <div className="flex flex-col items-center justify-center text-center">
-                <PageTitle title={title} />
+                <PageTitle title={title} line={true} />
             </div>
 
             <div className='flex flex-col justify-center items-center py-20'>
