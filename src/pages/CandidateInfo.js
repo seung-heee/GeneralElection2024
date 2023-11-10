@@ -36,7 +36,7 @@ const CandidateInfo = () => {
                                     <>
                                         <button
                                             onClick={(e) => { HandleContent(e) }}
-                                            className={`${candidate.department === '' ? "hidden" : ''} CandidateBtn`}>
+                                            className={`${candidate.department === candidate.college ? "hidden" : ''} CandidateBtn`}>
                                             {candidate.department}
                                         </button>
                                     </> : <></>}

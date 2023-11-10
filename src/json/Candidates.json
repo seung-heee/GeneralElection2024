@@ -1,163 +1,235 @@
 [{
         "id": 1,
         "college": "사회과학대학",
-        "department": "",
+        "department": "사회과학대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 2,
-        "college": "IT 공과대학",
-        "department": "",
+        "college": "IT공과대학",
+        "department": "IT공과대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 3,
         "college": "신학대학",
-        "department": "",
+        "department": "신학대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "https://www.sungkyul.ac.kr/skukr/487/subview.do",
+        "PledgeBook": "https://www.sungkyul.ac.kr/skukr/487/subview.do",
+        "CampaignVideo": "https://www.sungkyul.ac.kr/skukr/487/subview.do"
     },
     {
         "id": 4,
         "college": "사범대학",
-        "department": "",
+        "department": "사범대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 5,
         "college": "인문대학",
-        "department": "",
+        "department": "인문대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 6,
         "college": "예술대학",
-        "department": "",
+        "department": "예술대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 7,
         "college": "글로벌경영기술대학",
-        "department": "",
+        "department": "글로벌경영기술대학",
         "CandidateForDepartment": false,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 8,
         "college": "사회과학대학",
         "department": "행정학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 9,
         "college": "사회과학대학",
         "department": "사회복지학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 10,
         "college": "사회과학대학",
         "department": "국제개발협력학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "https://www.naver.com/",
+        "PledgeBook": "https://www.sungkyul.ac.kr/skukr/index.do",
+        "CampaignVideo": "#"
     },
     {
         "id": 11,
-        "college": "IT 공과대학",
+        "college": "IT공과대학",
         "department": "컴퓨터공학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 12,
-        "college": "IT 공과대학",
+        "college": "IT공과대학",
         "department": "정보통신공학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 13,
-        "college": "IT 공과대학",
+        "college": "IT공과대학",
         "department": "미디어소프트웨어학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 14,
         "college": "신학대학",
         "department": "신학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }, {
         "id": 15,
         "college": "신학대학",
         "department": "문화선교학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }, {
         "id": 16,
         "college": "신학대학",
         "department": "기독교교육상담학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 17,
         "college": "사범대학",
         "department": "체육교육과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }, {
         "id": 18,
         "college": "사범대학",
         "department": "유아교육과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 19,
         "college": "인문대학",
         "department": "중어중문학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 20,
         "college": "예술대학",
         "department": "영화영상학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }, {
         "id": 21,
         "college": "예술대학",
         "department": "뷰티디자인학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 22,
         "college": "글로벌경영기술대학",
         "department": "경영학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }, {
         "id": 23,
         "college": "글로벌경영기술대학",
         "department": "관광개발학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }, {
         "id": 24,
         "college": "글로벌경영기술대학",
         "department": "산업경영공학과",
         "CandidateForDepartment": true,
-        "number": 1
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     }
 ]
