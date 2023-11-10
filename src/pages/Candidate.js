@@ -1,6 +1,8 @@
 import PageTitle from "../components/PageTitle";
 import '../App.css';
 import { useNavigate } from "react-router-dom";
+import BottomTextOnly from "../components/BottomTextOnly";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Candidate = () => {
     const navigate = useNavigate();
@@ -26,6 +28,9 @@ const Candidate = () => {
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>IT공과대학</button>
                 </div>
             </div>
+
+            <BottomTextOnly />
+            <ScrollToTop />
         </div>
     )
 }

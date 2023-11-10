@@ -14,8 +14,8 @@ const LikelionPeople = () => {
             </div>
 
             <div className="grid grid-cols-3">
-                <Person id={1} />
                 <Person id={2} />
+                <Person id={1} />
                 <Person id={3} />
             </div>
         </div>

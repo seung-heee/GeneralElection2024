@@ -1,6 +1,9 @@
 import PageTitle from "../components/PageTitle";
 import { images } from '../utils/images';
 import '../App.css';
+import { ScrollRestoration } from "react-router-dom";
+import ScrollToTop from "../components/ScrollToTop";
+import BottomTextOnly from "../components/BottomTextOnly";
 
 const Map = () => {
     return (
@@ -26,6 +29,8 @@ const Map = () => {
                 </div>
                 <div className="last"></div>
             </div>
+            <ScrollToTop />
+            <BottomTextOnly />
         </div>
     )
 }

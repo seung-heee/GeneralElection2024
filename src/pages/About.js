@@ -2,6 +2,7 @@ import BottomTextOnly from "../components/BottomTextOnly";
 import ElectionCommission from "../components/ElectionCommission";
 import LikelionPeople from "../components/LikelionPeople";
 import PageTitle from "../components/PageTitle";
+import ScrollToTop from "../components/ScrollToTop";
 import { images } from '../utils/images';
 
 
@@ -32,6 +33,7 @@ const About = () => {
                 <ElectionCommission />
             </div>
             <div className="bottomText absolute text-center left-0 right-0 bottom-1">제40대선거관리위원회</div><BottomTextOnly />
+            <ScrollToTop />
         </div>
     )
 }

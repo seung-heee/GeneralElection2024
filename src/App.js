@@ -9,12 +9,28 @@ import CandidateInfo from './pages/CandidateInfo';
 import Voting from './pages/Voting';
 import MainNav from './components/MainNav';
 import CandidateContent from './pages/CandidateContent';
-import BottomTextOnly from './components/BottomTextOnly';
-import CampaignVideo from './components/Content/CampaignVideo';
-import Manifesto from './components/Content/Manifesto';
-import PledgeBook from './components/Content/PledgeBook';
+import { getCookie, setCookie } from './utils/cookie';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    const cookie = getCookie('visitor');
+    if (!cookie) {
+      const currentDate = new Date();
+      const expiresDate = new Date(
+        currentDate.getFullYear(),
+        currentDate.getMonth(),
+        currentDate.getDate() + 1, // 다음 날로 설정
+        0, // 시간을 00시로 설정
+        0, // 분을 00분으로 설정
+        0, // 초를 00초로 설정
+      );
+      // 시차 보정
+      setCookie('visitor', 'visitor', { path: './', expires: expiresDate, secure: true });
+    }
+  }, []);
+
+
   return (
     <BrowserRouter>
       <div className="App Font_bombaram relative">
@@ -30,9 +46,6 @@ function App() {
           <Route path='/CandidateInfo' element={<CandidateInfo />} />
           <Route path='/Voting' element={<Voting />} />
           <Route path='/CandidateContent' element={<CandidateContent />} />
-          <Route path='/Manifesto' element={<Manifesto />} />
-          <Route path='/PledgeBook' element={<PledgeBook />} />
-          <Route path='/CampaignVideo' element={<CampaignVideo />} />
         </Routes>
       </div>
     </BrowserRouter>
