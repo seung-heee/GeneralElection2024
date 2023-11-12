@@ -5,11 +5,7 @@ import { GiClick } from 'react-icons/gi';
 const Main = () => {
     const navigate = useNavigate();
     const ChangeBtn = new Date('November 20, 2023 00:00:00');
-    console.log(ChangeBtn);
     const today = new Date();
-    console.log(today);
-
-    console.log(ChangeBtn > today)
 
     return (
         <div className='relative'>

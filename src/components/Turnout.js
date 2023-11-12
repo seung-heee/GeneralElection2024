@@ -18,10 +18,9 @@ const Turnout = () => {
     // 업데이트 일시
     const refresh = async () => {
         try {
-            const response = await APIClient().get('/refresh');
-            setUpdateDate(response.date);
-            setUpdateTime(response.time)
-
+            const response = await APIClient().get('/refresh/');
+            setUpdateDate(response.data.date);
+            setUpdateTime(response.data.time);
         } catch (error) {
             console.error(error);
         }
@@ -30,7 +29,7 @@ const Turnout = () => {
     // 투표율
     const rate = async () => {
         try {
-            const response = await APIClient().get('/rate');
+            const response = await APIClient().get('/rate/');
             setVoteRates(response.data);
         } catch (error) {
             console.error(error);
@@ -39,8 +38,8 @@ const Turnout = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            await refresh();
             await rate();
+            await refresh();
         };
 
         fetchData();
@@ -50,10 +49,10 @@ const Turnout = () => {
         <>
             <div>
                 <div className='text-center italic mb-2 flex items-center justify-center text-sm'><GrDocumentUpdate className='mr-1' />업데이트 일시 : {updateDate} {updateTime}</div>
-                <div className='grid grid-cols-3 w-11/12 mx-auto text-center grid-rows-3 border-2 border-black'>
+                <div className='grid grid-cols-3 w-11/12 mx-auto text-center grid-rows-2 border-2 border-black'>
                     <div className='text-center row-span-1 flex items-center justify-center bg-gray-100 text-lg'>단과대학</div>
                     {Candidates.map((candidate) => (
-                        candidate.CandidateForDepartment === false ?
+                        candidate.CandidateForDepartment === false && candidate.Manifesto !== "" ?
                             <div className="flex flex-col">
                                 <p className="bg-gray-200 p-1 break-keep grow text-sm">{candidate.department}</p>
                                 <p className="p-1 bg-white border-gray-100">{voteRates[candidate.department]}%</p>
