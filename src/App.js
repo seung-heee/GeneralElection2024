@@ -12,6 +12,7 @@ import CandidateContent from './pages/CandidateContent';
 import { getCookie, setCookie } from './utils/cookie';
 import { useEffect } from 'react';
 import axios from 'axios';
+axios
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,7 @@ function App() {
   }, []);
 
   const callAPI = () => {
-    axios.get('https://api.sku-sku.com/vote2024/')
+    axios.get('https://api.sku-sku.com/visitors/vote2024/')
       .then((response) => {
         console.log(response.data);
       })
