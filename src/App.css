@@ -88,6 +88,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.TitleLineShort {
+    background-image: url('../public/assets/img/TitleLineShort.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .Subtitle {
     color: #d94925;
     font-size: 30px;
