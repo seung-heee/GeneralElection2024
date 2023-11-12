@@ -11,6 +11,7 @@ import MainNav from './components/MainNav';
 import CandidateContent from './pages/CandidateContent';
 import { getCookie, setCookie } from './utils/cookie';
 import { useEffect } from 'react';
+import axios from 'axios';
 
 function App() {
   useEffect(() => {
