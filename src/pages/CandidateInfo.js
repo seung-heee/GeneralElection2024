@@ -8,7 +8,6 @@ const CandidateInfo = () => {
     const title = location.state.title;
 
     const navigate = useNavigate();
-
     const HandleContent = (e) => {
         navigate('/CandidateContent', { state: { title: e.target.innerText } });
     }
@@ -23,8 +22,21 @@ const CandidateInfo = () => {
             <div>
                 <div className="Subtitle text-center">-단과대학-</div>
                 <div className="flex flex-col justify-center items-center">
-                    <button className="CandidateBtn" onClick={(e) => { HandleContent(e) }}>{title}</button>
-                </div>
+                    {Candidates.map((candidate) => {
+                        return (
+                            <>
+                                {title === candidate.college && title === candidate.department ? (
+                                    <>
+                                        {candidate.Manifesto === "" ? (
+                                            '입후보자가 없습니다.'
+                                        ) : (
+                                            <button className="CandidateBtn" onClick={(e) => { HandleContent(e) }}>{title}</button>
+                                        )}
+                                    </>) : null}
+                            </>
+                        )
+                    })}
+                </div >
             </div>
             <div>
                 <div className="Subtitle text-center">-학부(과)-</div>

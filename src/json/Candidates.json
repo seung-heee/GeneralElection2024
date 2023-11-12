@@ -14,8 +14,8 @@
         "department": "IT공과대학",
         "CandidateForDepartment": false,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1nBOz4aVCvhkkMhYhGoXUrbq6i1oy2E3f/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/194GoayOKFsdNEJxTQRQMD8W90DQ3vsiV/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -24,9 +24,9 @@
         "department": "신학대학",
         "CandidateForDepartment": false,
         "number": 1,
-        "Manifesto": "https://www.sungkyul.ac.kr/skukr/487/subview.do",
-        "PledgeBook": "https://www.sungkyul.ac.kr/skukr/487/subview.do",
-        "CampaignVideo": "https://www.sungkyul.ac.kr/skukr/487/subview.do"
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
     },
     {
         "id": 4,
@@ -34,8 +34,8 @@
         "department": "사범대학",
         "CandidateForDepartment": false,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1crqFC6tk2BBs-aZbb69_JUPszvcz_LCC/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1ybWEAs6qbnyc1qVOYnD6qH3eJlAWWP-O/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -44,8 +44,8 @@
         "department": "인문대학",
         "CandidateForDepartment": false,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1JjVurCkpFxvrzSGY-B5J1AuL6_Pcc7DF/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1420P5GM4f55dgocJHgszdMyJIgs6nbWg/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -54,8 +54,8 @@
         "department": "예술대학",
         "CandidateForDepartment": false,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1FK7yaeNmdwIz3OZxWHecvjG46H9Wfo9d/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/11sjkejcgNO6AnhwLbU8Aux5nH2o36oxv/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -64,8 +64,8 @@
         "department": "글로벌경영기술대학",
         "CandidateForDepartment": false,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1n1RKHMR7MOI-lSeiwPOr8tq5oQhz0Sum/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1z7VIidXMmLL4Wa5fjpsE6f8efdanVknp/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -74,8 +74,8 @@
         "department": "행정학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1npXeJQi8Qq-rDDDwJQyWxIPaNBDRnKiF/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1ivBdU_YOfw1yndcTkzYBbSNNI0l1Bcti/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -84,8 +84,8 @@
         "department": "사회복지학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1_SaHyV8jj06bsEEH0F_yH2qjEsv6ccE7/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1WXZ1_ltLb8F8uB4n2JIEC5uSjE8MXqQh/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -94,8 +94,8 @@
         "department": "국제개발협력학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "https://www.naver.com/",
-        "PledgeBook": "https://www.sungkyul.ac.kr/skukr/index.do",
+        "Manifesto": "https://drive.google.com/file/d/1vqynexDQrV6AqKLIeCbrBaUhSdW2OZqx/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1lVvW1zgjKMhPfF8fxHu9FO9lQ1BFmJQ3/view?usp=drive_link",
         "CampaignVideo": "#"
     },
     {
@@ -104,8 +104,8 @@
         "department": "컴퓨터공학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1zyMSxdnDnPIAfskrFaD0ztqrfooEfhkw/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1CIxgDHlIOfhPyityKoIHUnCcPH5Y3sQE/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -114,8 +114,8 @@
         "department": "정보통신공학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1DSNxUyd63lludZcMx0s_zRX0GlZGqLVH/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1usMXoUh0adkumev6gfLHrJlHzcwHPRjL/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -124,8 +124,8 @@
         "department": "미디어소프트웨어학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/19wHP79aJRc1lYuHDQqZOkA0APhxD_Zab/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1HDYjuD_-lAWms3JRuq5oTwQc3VjnHbrd/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -134,8 +134,8 @@
         "department": "신학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1mPMwejKoj6zg4E6q-gJB0w3gpc7EUP4T/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1HhLYNPxTUcG4Le-jvyrvXdyH9ZL1SGPC/view?usp=drive_link",
         "CampaignVideo": ""
     }, {
         "id": 15,
@@ -143,8 +143,8 @@
         "department": "문화선교학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1DH-SRQAOe3JH-Ti6NkzSY32FraZ4l-bk/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/11EmRW7ufcq7050m1RWZh3pzlcoy7Wp_i/view?usp=drive_link",
         "CampaignVideo": ""
     }, {
         "id": 16,
@@ -152,8 +152,8 @@
         "department": "기독교교육상담학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1SMM8nhyxCPVEvbkDZaZdR714_QEYM62D/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1rVSYYHib2zdGPEegNARZB5Boh_GTwriD/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -162,8 +162,8 @@
         "department": "체육교육과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1E0_Xsh-cK8bsKgTk5-FbeigDZeJuRII2/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1iqYnaTnZfo6R2gfsacLTiY8laJNNjRUo/view?usp=drive_link",
         "CampaignVideo": ""
     }, {
         "id": 18,
@@ -171,8 +171,8 @@
         "department": "유아교육과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/17Ui0bs_qQs5LpTGD4lEX2kQjl4G6kPot/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1ZKGkwoNfoszeyNq7WUN4kcGL6yI0okL5/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -181,8 +181,8 @@
         "department": "중어중문학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1GHbN3V4K8jYvko7lD_Vjv2RjdJtdrS3J/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/18ZgayytuM-_yF1RF30txfmPGaE_pIz6K/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -191,8 +191,8 @@
         "department": "영화영상학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1sa38PvSdIVGYlT_qi4SG_stgSFERl8aR/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1RFFILMACe6u9RYzqHjRXdOMycDLRJ9_F/view?usp=drive_link",
         "CampaignVideo": ""
     }, {
         "id": 21,
@@ -200,8 +200,8 @@
         "department": "뷰티디자인학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1eM4fCT3Tq9M7PKIKB47-c85bl9XcdR8Q/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1PVEARqdmb2prlB3uaMx9gIg6N4BOpdse/view?usp=drive_link",
         "CampaignVideo": ""
     },
     {
@@ -210,8 +210,8 @@
         "department": "경영학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/1ZYeZ9Mp-J8j151fAnHzhxS4GNulCLRaM/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1ZYeZ9Mp-J8j151fAnHzhxS4GNulCLRaM/view?usp=drive_link",
         "CampaignVideo": ""
     }, {
         "id": 23,
@@ -219,8 +219,8 @@
         "department": "관광개발학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/10Bj3HpFkfl5E7lZgkEVr22QKmOXZ-rVG/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/12CKYWuHls3iMGd6eZ9YA9zWLyG73iLzL/view?usp=drive_link",
         "CampaignVideo": ""
     }, {
         "id": 24,
@@ -228,8 +228,8 @@
         "department": "산업경영공학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "",
-        "PledgeBook": "",
+        "Manifesto": "https://drive.google.com/file/d/14iyRnm2Hi-tQkV7XK8W6U_CmVPaJnyir/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1PccNbS_BfBdzAd5VB7TtHk-0YvzSYUb2/view?usp=drive_link",
         "CampaignVideo": ""
     }
 ]

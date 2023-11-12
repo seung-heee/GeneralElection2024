@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import PageTitle from "../components/PageTitle";
 import Candidates from '../json/Candidates.json';
+import EmptyCampaignVideo from '../components/EmptyCampaignVideo';
 
 const CandidateContent = () => {
     const location = useLocation();
@@ -20,12 +21,14 @@ const CandidateContent = () => {
                                 <>
                                     <button className="CandidateBtn0"><Link to={candidate.Manifesto} target="_blank">소견서</Link></button>
                                     <button className="CandidateBtn0"><Link to={candidate.PledgeBook} target="_blank">공약집</Link></button>
-                                    <button className="CandidateBtn0"><Link to={candidate.CampaignVideo} target="_blank">유세영상</Link></button>
+                                    <button className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
+                                        <Link to={candidate.CampaignVideo} target="_blank" className={``}>유세영상</Link>
+                                    </button>
                                 </> : ''}
                         </>
                     )
                 })}
-            </div>
+            </div >
             <div className="bottomText fixed text-center left-0 right-0 bottom-1">제40대선거관리위원회</div>
         </div >
     )
