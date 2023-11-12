@@ -27,9 +27,19 @@ function App() {
       );
       // 시차 보정
       setCookie('visitor', 'visitor', { path: './', expires: expiresDate, secure: true });
+      callAPI();
     }
   }, []);
 
+  const callAPI = () => {
+    axios.get('https://api.sku-sku.com/vote2024/')
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.error('API Error: ', error);
+      })
+  }
 
   return (
     <BrowserRouter>
