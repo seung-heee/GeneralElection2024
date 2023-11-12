@@ -13,7 +13,7 @@ const Turnout = () => {
 
     const [updateDate, setUpdateDate] = useState("2023-11-20");
     const [updateTime, setUpdateTime] = useState("00:00:00");
-    const [voteRates, setVoteRates] = useState({ 컴퓨터공학과: '55.5', 신학과: '40.8', 미디어소프트웨어학과: '55' });
+    const [voteRates, setVoteRates] = useState({});
 
     // 업데이트 일시
     const refresh = async () => {
