@@ -108,6 +108,13 @@ body {
     align-items: flex-end;
 }
 
+.last30:last-child {
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .bottomText {
     letter-spacing: 15px;
     padding: 3px;

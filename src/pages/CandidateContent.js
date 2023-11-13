@@ -7,6 +7,14 @@ const CandidateContent = () => {
     const location = useLocation();
     const title = location.state.title;
 
+    const openManifesto = Manifesto => {
+        window.open(Manifesto, '_blank');
+    };
+
+
+    const openPledgeBook = PledgeBook => {
+        window.open(PledgeBook, '_blank');
+    };
     return (
         <div className="relative">
             <div className="flex flex-col items-center justify-center text-center">
@@ -19,8 +27,8 @@ const CandidateContent = () => {
                         <>
                             {candidate.department === title ?
                                 <>
-                                    <button className="CandidateBtn0"><Link to={candidate.Manifesto} target="_blank">소견서</Link></button>
-                                    <button className="CandidateBtn0"><Link to={candidate.PledgeBook} target="_blank">공약집</Link></button>
+                                    <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto) }}>소견서</button>
+                                    <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.PledgeBook) }}>공약집</button>
                                     <button className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
                                         <Link to={candidate.CampaignVideo} target="_blank" className={``}>유세영상</Link>
                                     </button>

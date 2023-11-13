@@ -4,6 +4,13 @@ import '../css/Nav.css';
 import { FiChevronLeft } from "react-icons/fi"
 
 const ShowNav = ({ setIsOpen }) => {
+    const navigate = useNavigate();
+
+
+    const openLink = (url) => {
+        navigate(url)
+    }
+
     const closeNav = () => {
         setIsOpen(false)
     }
@@ -11,11 +18,11 @@ const ShowNav = ({ setIsOpen }) => {
         <div className="ShowNav relative w-full">
             <ul className="min-h-screen flex flex-col items-center justify-center gap-y-6 text-3xl">
                 <div className="NavTitle mb-2 text-4xl">총선거</div>
-                <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Election" onClick={closeNav}>총선거란</Link></li>
-                <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Candidate" onClick={closeNav}>입후보자 정보</Link></li>
-                <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Map" onClick={closeNav}>배치도</Link></li>
-                <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/Voting" onClick={closeNav}>투표율</Link></li>
-                <li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn"><Link to="/About" onClick={closeNav}>만든이들</Link></li>
+                <Link to="/Election" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">총선거란</li></Link>
+                <Link to="/Candidate" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">입후보자 정보</li></Link>
+                <Link to="/Map" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">배치도</li></Link>
+                <Link to="/Voting" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">투표율</li></Link>
+                <Link to="/About" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">만든이들</li></Link>
             </ul>
         </div>
     )
