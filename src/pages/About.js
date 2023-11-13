@@ -19,7 +19,7 @@ const About = () => {
                     </div>
                     <div>
                         <div className="w-28 h-28" ><img src={images.선관위} alt="멋사로고" /></div>
-                        <p className="mt-2 -mb-1">제 40대</p>
+                        <p className="mt-2 -mb-1">제40대</p>
                         <p>선거관리위원회</p>
                     </div>
                 </div>
