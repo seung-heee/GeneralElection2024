@@ -1,4 +1,4 @@
-# 2024 총선거
+# 🗳️ 2024 총선거
 
 ![readme_mockup2](https://github.com/seung-heee/GeneralElection2024/blob/main/VOTE.png)
 
