@@ -18,11 +18,11 @@ const ShowNav = ({ setIsOpen }) => {
         <div className="ShowNav relative w-full">
             <ul className="min-h-screen flex flex-col items-center justify-center gap-y-6 text-3xl">
                 <div className="NavTitle mb-2 text-4xl">총선거</div>
-                <Link to="/Election" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">총선거란</li></Link>
-                <Link to="/Candidate" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">입후보자 정보</li></Link>
-                <Link to="/Map" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">배치도</li></Link>
-                <Link to="/Voting" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">투표율</li></Link>
-                <Link to="/About" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">만든이들</li></Link>
+                <Link to="/main-election/Election" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">총선거란</li></Link>
+                <Link to="/main-election/Candidate" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">입후보자 정보</li></Link>
+                <Link to="/main-election/Map" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">배치도</li></Link>
+                <Link to="/main-election/Voting" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">투표율</li></Link>
+                <Link to="/main-election/About" onClick={closeNav}><li className="hover:textShadow duration-500 hover:translate-y-[-5px] NavBtn">만든이들</li></Link>
             </ul>
         </div>
     )
@@ -36,15 +36,15 @@ const MainNav = () => {
     return (
         <div className="Nav flex justify-center items-center text-lg p-3">
             <div>
-                {location.pathname !== '/' &&
+                {location.pathname !== '/main-election' &&
                     <>
                         <FiChevronLeft className='cursor-pointer' size={40} onClick={() => { navigate(-1) }} />
                     </>}
             </div>
             <ul className='container flex justify-center items-center h-full text-center'>
-                {location.pathname !== '/' &&
+                {location.pathname !== '/main-election' &&
                     <>
-                        <li className="text-2xl navHori"><Link to='/'>총선거</Link></li>
+                        <li className="text-2xl navHori"><Link to='/main-election'>총선거</Link></li>
                     </>}
                 <li className={`off-screen-menu ${isOpen ? 'open fixed fade-in-top ' : 'hidden'} flex justify-center items-center tracking-[1px]`}>
                     {isOpen && (

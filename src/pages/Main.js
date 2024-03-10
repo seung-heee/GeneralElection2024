@@ -19,7 +19,7 @@ const Main = () => {
                 </div>
                 {ChangeBtn > today ?
                     <>
-                        <button onClick={() => { navigate('/Candidate') }}
+                        <button onClick={() => { navigate('/main-election/Candidate') }}
                             className='text-2xl w-9/12 py-3 mt-4 rounded-3xl mainbtn flex justify-center items-center'>
                             <span>입후보자 바로보기</span>
                             <GiClick className='ml-2' />
@@ -27,7 +27,7 @@ const Main = () => {
 
                     </> :
                     <>
-                        <button onClick={() => { navigate('/Voting') }}
+                        <button onClick={() => { navigate('/main-election/Voting') }}
                             className='text-2xl w-9/12 py-3 mt-4 rounded-3xl mainbtn flex justify-center items-center'>
                             <span>투표율 바로보기</span>
                             <GiClick className='ml-2' />
