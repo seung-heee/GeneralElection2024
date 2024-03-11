@@ -13,8 +13,7 @@ import { getCookie, setCookie } from './utils/cookie';
 import { useEffect } from 'react';
 import axios from 'axios';
 
-
-function MainElection() {
+function ByElection() {
   useEffect(() => {
     const cookie = getCookie('visitor');
     if (!cookie) {
@@ -45,21 +44,21 @@ function MainElection() {
 
   return (
       <div className="App Font_bombaram relative">
-        <div div className="leftDate absolute top-16 left-1 verticalLeft text-3xl" >2024.11.20-11.22</div>
-        <div className="rightDate absolute bottom-48 right-1 verticalRight text-3xl">2023.11.20-11.22</div>
-        <MainNav />
+        <div div className="leftDate absolute top-16 left-1 verticalLeft text-3xl" >2024.03.25-03.27</div>
+        <div className="rightDate absolute bottom-48 right-1 verticalRight text-3xl">2024.03.25-03.27</div>
+        <ByMainNav />
         <Routes>
-          <Route path='' element={<Main />} />
-          <Route path='Election' element={<Election />} />
-          <Route path='Candidate' element={<Candidate />} />
-          <Route path='Map' element={<Map />} />
-          <Route path='About' element={<About />} />
-          <Route path='CandidateInfo' element={<CandidateInfo />} />
-          <Route path='Voting' element={<Voting />} />
-          <Route path='CandidateContent' element={<CandidateContent />} />
+          <Route path='' element={<ByMain />} />
+          <Route path='Election' element={<ByElectionPage />} />
+          <Route path='Candidate' element={<ByCandidate />} />
+          <Route path='Map' element={<ByMap />} />
+          <Route path='About' element={<ByAbout />} />
+          <Route path='CandidateInfo' element={<ByCandidateInfo />} />
+          <Route path='Voting' element={<ByVoting />} />
+          <Route path='CandidateContent' element={<ByCandidateContent />} />
         </Routes>
       </div>
   );
 }
 
-export default MainElection;
+export default ByElection;

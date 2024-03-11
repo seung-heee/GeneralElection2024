@@ -42,5 +42,9 @@ export const images = {
         인문대학: {
             인문_영상: PATH + '/assets/video/인문영상.mp4'
         }
-    }
+    },
+
+    // 보궐선거
+    "Bymap": PATH + '/assets/img/ByImg/Bymap.png',
+    "BymapBottom": PATH + '/assets/img/ByImg/BymapBottom.png',
 };

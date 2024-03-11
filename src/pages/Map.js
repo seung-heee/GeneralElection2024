@@ -5,7 +5,7 @@ import { ScrollRestoration } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
 import BottomTextOnly from "../components/BottomTextOnly";
 
-const Map = () => {
+export const Map = () => {
     return (
         <div>
             <div className="flex flex-col items-center justify-center text-center">
@@ -35,4 +35,26 @@ const Map = () => {
     )
 }
 
-export default Map;
+export const ByMap = () => {
+    return (
+        <div>
+            <div className="flex flex-col items-center justify-center text-center">
+                <PageTitle title={'배치도'} line={false} />
+                <div className="px-10 py-2 break-keep">2024 보궐선거가 진행되는 장소는<br />
+                    <span className="pointColor"> 학생회관 4층 체육관</span>입니다.<br />
+                    아래 <span className="pointColor">단과대학 및 학부(과)의 배치도</span>를 <br /> 참고하여 주시기 바랍니다.
+                </div>
+                <div className="p-2">
+                    <img src={images.Bymap} alt={'배치도'} />
+
+                </div>
+                <div className="p-2">
+                    <img src={images.BymapBottom} alt={'배치도'} />
+                </div>
+                <div className="last30"></div>
+            </div>
+            <ScrollToTop />
+            <BottomTextOnly />
+        </div>
+    )
+}

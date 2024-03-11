@@ -1,0 +1,131 @@
+[{
+        "id": 1,
+        "college": "총학생회",
+        "department": "총학생회",
+        "CandidateForDepartment": false,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1nBOz4aVCvhkkMhYhGoXUrbq6i1oy2E3f/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/194GoayOKFsdNEJxTQRQMD8W90DQ3vsiV/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 2,
+        "college": "IT공과대학",
+        "department": "IT공과대학",
+        "CandidateForDepartment": false,
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 3,
+        "college": "신학대학",
+        "department": "신학대학",
+        "CandidateForDepartment": false,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1crqFC6tk2BBs-aZbb69_JUPszvcz_LCC/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1crqFC6tk2BBs-aZbb69_JUPszvcz_LCC/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 4,
+        "college": "글로벌경영기술대학",
+        "department": "글로벌경영기술대학",
+        "CandidateForDepartment": false,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1crqFC6tk2BBs-aZbb69_JUPszvcz_LCC/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1ybWEAs6qbnyc1qVOYnD6qH3eJlAWWP-O/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 5,
+        "college": "인문대학",
+        "department": "인문대학",
+        "CandidateForDepartment": false,
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 6,
+        "college": "예술대학",
+        "department": "예술대학",
+        "CandidateForDepartment": false,
+        "number": 1,
+        "Manifesto": "",
+        "PledgeBook": "",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 7,
+        "college": "인문대학",
+        "department": "영어영문학과",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1npXeJQi8Qq-rDDDwJQyWxIPaNBDRnKiF/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1ivBdU_YOfw1yndcTkzYBbSNNI0l1Bcti/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 8,
+        "college": "인문대학",
+        "department": "중어중문학과",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1_SaHyV8jj06bsEEH0F_yH2qjEsv6ccE7/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1WXZ1_ltLb8F8uB4n2JIEC5uSjE8MXqQh/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 9,
+        "college": "예술대학",
+        "department": "연기예술학과",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1vqynexDQrV6AqKLIeCbrBaUhSdW2OZqx/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1lVvW1zgjKMhPfF8fxHu9FO9lQ1BFmJQ3/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 10,
+        "college": "예술대학",
+        "department": "실용음악과",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1zyMSxdnDnPIAfskrFaD0ztqrfooEfhkw/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1CIxgDHlIOfhPyityKoIHUnCcPH5Y3sQE/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 11,
+        "college": "예술대학",
+        "department": "음악학부",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1DSNxUyd63lludZcMx0s_zRX0GlZGqLVH/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1usMXoUh0adkumev6gfLHrJlHzcwHPRjL/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 12,
+        "college": "IT공과대학",
+        "department": "도시디자인정보공학과",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/19wHP79aJRc1lYuHDQqZOkA0APhxD_Zab/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1HDYjuD_-lAWms3JRuq5oTwQc3VjnHbrd/view?usp=drive_link",
+        "CampaignVideo": ""
+    },
+    {
+        "id": 13,
+        "college": "글로벌경영기술대학",
+        "department": "글로벌물류학부",
+        "CandidateForDepartment": true,
+        "number": 1,
+        "Manifesto": "https://drive.google.com/file/d/1mPMwejKoj6zg4E6q-gJB0w3gpc7EUP4T/view?usp=drive_link",
+        "PledgeBook": "https://drive.google.com/file/d/1HhLYNPxTUcG4Le-jvyrvXdyH9ZL1SGPC/view?usp=drive_link",
+        "CampaignVideo": ""
+    }
+]
