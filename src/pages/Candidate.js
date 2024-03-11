@@ -8,7 +8,7 @@ const Candidate = () => {
     const navigate = useNavigate();
 
     const HandleLink = (e) => {
-        navigate('/CandidateInfo', { state: { title: e.target.innerText } });
+        navigate('/main-election/CandidateInfo', { state: { title: e.target.innerText } });
     }
     return (
         <div className="relative">

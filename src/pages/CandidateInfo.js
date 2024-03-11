@@ -9,7 +9,7 @@ const CandidateInfo = () => {
 
     const navigate = useNavigate();
     const HandleContent = (e) => {
-        navigate('/CandidateContent', { state: { title: e.target.innerText } });
+        navigate('/main-election/CandidateContent', { state: { title: e.target.innerText } });
     }
 
     return (

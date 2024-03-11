@@ -55,7 +55,10 @@ const Turnout = () => {
                         candidate.CandidateForDepartment === false && candidate.Manifesto !== "" ?
                             <div className="flex flex-col">
                                 <p className="bg-gray-200 p-1 break-keep grow text-sm">{candidate.department}</p>
-                                <p className="p-1 bg-white border-gray-100">{voteRates[candidate.department]}%</p>
+                                <p className="p-1 bg-white flex items-center justify-center">
+                                    {voteRates[candidate.department] >= 50.0 ? <BsCheck2Circle color='green' className='mr-1' /> : ''}
+                                    {voteRates[candidate.department]}%
+                                </p>
                             </div> : null
                     ))}
                 </div>
@@ -79,7 +82,7 @@ const Turnout = () => {
                 </div>
 
 
-                <button onClick={() => { navigate('/Candidate') }}
+                <button onClick={() => { navigate('/main-election/Candidate') }}
                     className='text-2xl w-8/12 py-3 mt-4 rounded-3xl mainbtn flex justify-center items-center mx-auto'>
                     <span>입후보자 바로보기</span>
                     <GiClick className='ml-2' />

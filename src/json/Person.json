@@ -1,31 +1,31 @@
 [{
         "id": 1,
-        "image": "assets/img/person/taekwon.png",
-        "logo": "assets/img/logo/likelionLogo.png",
+        "image": "/assets/img/person/taekwon.png",
+        "logo": "/assets/img/logo/likelionLogo.png",
         "name": "정택원",
         "department": "컴퓨터공학과 19",
         "position": "",
         "role": "Back-End"
     }, {
         "id": 2,
-        "image": "assets/img/person/seunghee.png",
-        "logo": "assets/img/logo/likelionLogo.png",
+        "image": "/assets/img/person/seunghee.png",
+        "logo": "/assets/img/logo/likelionLogo.png",
         "name": "노승희",
         "department": "미디어소프트웨어학과 20",
         "position": "",
         "role": "Front-End"
     }, {
         "id": 3,
-        "image": "assets/img/person/minji.png",
-        "logo": "assets/img/logo/likelionLogo.png",
+        "image": "/assets/img/person/minji.png",
+        "logo": "/assets/img/logo/likelionLogo.png",
         "name": "남민지",
         "department": "컴퓨터공학과 21",
         "position": "",
         "role": "Back-End"
     }, {
         "id": 4,
-        "image": "assets/img/person/박주혁.png",
-        "logo": "assets/img/logo/선관위.png",
+        "image": "/assets/img/person/박주혁.png",
+        "logo": "/assets/img/logo/선관위.png",
         "name": "박주혁",
         "department": "중어중문학과 17",
         "position": "",
@@ -33,32 +33,32 @@
     },
     {
         "id": 5,
-        "image": "assets/img/person/공윤희.png",
-        "logo": "assets/img/logo/선관위.png",
+        "image": "/assets/img/person/공윤희.png",
+        "logo": "/assets/img/logo/선관위.png",
         "name": "공윤희",
         "department": "미디어소프트웨어학과 21",
         "position": "",
         "role": "웹디자인"
     }, {
         "id": 6,
-        "image": "assets/img/person/김고운.png",
-        "logo": "assets/img/logo/선관위.png",
+        "image": "/assets/img/person/김고운.png",
+        "logo": "/assets/img/logo/선관위.png",
         "name": "김고운",
         "department": "사회복지학과 21",
         "position": "",
         "role": "웹디자인"
     }, {
         "id": 7,
-        "image": "assets/img/person/김준모.png",
-        "logo": "assets/img/logo/선관위.png",
+        "image": "/assets/img/person/김준모.png",
+        "logo": "/assets/img/logo/선관위.png",
         "name": "김준모",
         "department": "국어국문학과 18",
         "position": "",
         "role": "웹디자인"
     }, {
         "id": 8,
-        "image": "assets/img/person/임정엽.png",
-        "logo": "assets/img/logo/선관위.png",
+        "image": "/assets/img/person/임정엽.png",
+        "logo": "/assets/img/logo/선관위.png",
         "name": "임정엽",
         "department": "사회복지학과 20",
         "position": "",
