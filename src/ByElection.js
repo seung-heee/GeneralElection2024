@@ -14,6 +14,7 @@ import { useEffect } from 'react';
 import axios from 'axios';
 import PledgeBook from './pages/PledgeBook';
 import CampaignVideo from './pages/CampaignVideo';
+import Manifesto from './pages/Manifesto';
 
 function ByElection() {
   useEffect(() => {
@@ -60,6 +61,7 @@ function ByElection() {
           <Route path='CandidateContent' element={<ByCandidateContent />} />
           <Route path='PledgeBook' element={<PledgeBook />} />
           <Route path='CampaignVideo' element={<CampaignVideo />} />
+          <Route path='Manifesto' element={<Manifesto />} />
         </Routes>
       </div>
   );

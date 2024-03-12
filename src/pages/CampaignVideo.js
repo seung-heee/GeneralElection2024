@@ -5,11 +5,10 @@ const CampaignVideo = ({title}) => {
   return (
     <div>
     {ByCandidates.map((candidate)=> {
-      const thisvideo = candidate.department === title ? candidate.CampaignVideo : ''
-      console.log(thisvideo)
+      const videoUrl = candidate.department === title ? candidate.CampaignVideo : ''
       return (
         <iframe width="300" height="200" 
-        src={thisvideo}
+        src={videoUrl}
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
         </iframe>

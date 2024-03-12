@@ -28,7 +28,6 @@ export const Candidate = () => {
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>IT공과대학</button>
                 </div>
             </div>
-
             <BottomTextOnly />
             <ScrollToTop />
         </div>
@@ -42,6 +41,10 @@ export const ByCandidate = () => {
     const HandleLink = (e) => {
         navigate('/by-election/CandidateInfo', { state: { title: e.target.innerText } });
     }
+    const StudentCouncil = (e) => {
+        navigate('/by-election/CandidateContent', { state: { title: e.target.innerText } });
+    }
+
     return (
         <div className="relative">
             <div className="flex flex-col items-center justify-center text-center">
@@ -51,7 +54,7 @@ export const ByCandidate = () => {
                     <p>공약집을 알고 학우 여러분들의 <br />소중한 권리를 행사해주세요.</p>
                 </div>
                 <div className="w-full mb-5">
-                    <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>총학생회</button>
+                    <button className="CandidateBtn mx-auto" onClick={(e) => { StudentCouncil(e) }}>총학생회</button>
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>인문대학</button>
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>예술대학</button>
                     <button className="CandidateBtn mx-auto" onClick={(e) => { HandleLink(e) }}>신학대학</button>

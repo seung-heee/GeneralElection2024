@@ -54,13 +54,16 @@ export const ByCandidateContent = () => {
         navigate('/by-election/PledgeBook', { state: { length, title } });
     };
 
+    const openManifesto = (length, title) => {
+        navigate('/by-election/Manifesto', { state: { title } });
+    };
+
     const openCampaignVideo = title => {
         navigate('/by-election/CampaignVideo', { state: { title } });
     };
 
-    const openManifesto = PledgeBook => {
-        window.open(PledgeBook, '_blank');
-    };
+    
+
     return (
         <div className="relative">
             <div className="flex flex-col items-center justify-center text-center">
@@ -72,21 +75,15 @@ export const ByCandidateContent = () => {
                     return (
                         <>
                             {candidate.department === title ?
-                                <>
-                                    <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto, title) }}>소견서</button>
-                                    <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook ) }}>공약집</button>
-                                    
-                                    <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto) }}>소견서</button>
-                                    <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook, title) }}>공약집</button>
-                                    {/* <button className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
-                                        <Link to={candidate.CampaignVideo} target="_blank" className={``}>유세영상</Link>
-                                    </button> */}
-                                    <button
-                                        onClick={()=>{ openCampaignVideo(candidate.CampaignVideo) }}
-                                        className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
-                                        유세영상
-                                    </button>
-                                </> : ''}
+                            <>
+                            <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto, title) }}>소견서</button>
+                            <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook, title) }}>공약집</button>
+                            <button
+                                onClick={()=>{ openCampaignVideo(candidate.CampaignVideo) }}
+                                className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
+                                유세영상
+                            </button>
+                            </> : ''}
                         </>
                     )
                 })}

@@ -12,7 +12,7 @@ const PledgeBook = () => {
   const title = location.state.title;
 
   const slides = Array.from({ length: length }).map(
-    (el, index) => process.env.PUBLIC_URL + `/assets/img/ByImg/PledgeBook/${title}${index}.png`
+    (el, index) => process.env.PUBLIC_URL + `/assets/img/ByImg/Manifesto/${title}${index}.png`
   );
 
   return (

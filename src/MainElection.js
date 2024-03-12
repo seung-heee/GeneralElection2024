@@ -45,7 +45,7 @@ function MainElection() {
 
   return (
       <div className="App Font_bombaram relative">
-        <div div className="leftDate absolute top-16 left-1 verticalLeft text-3xl" >2024.11.20-11.22</div>
+        <div div className="leftDate absolute top-16 left-1 verticalLeft text-3xl" >2023.11.20-11.22</div>
         <div className="rightDate absolute bottom-48 right-1 verticalRight text-3xl">2023.11.20-11.22</div>
         <MainNav />
         <Routes>
