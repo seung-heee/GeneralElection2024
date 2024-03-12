@@ -64,8 +64,8 @@
         "department": "영어영문학과",
         "CandidateForDepartment": true,
         "number": 1,
-        "Manifesto": "https://drive.google.com/file/d/1npXeJQi8Qq-rDDDwJQyWxIPaNBDRnKiF/view?usp=drive_link",
-        "PledgeBook": "https://drive.google.com/file/d/1ivBdU_YOfw1yndcTkzYBbSNNI0l1Bcti/view?usp=drive_link",
+        "Manifesto": 2,
+        "PledgeBook": 2,
         "CampaignVideo": ""
     },
     {
@@ -75,8 +75,8 @@
         "CandidateForDepartment": true,
         "number": 1,
         "Manifesto": "https://drive.google.com/file/d/1_SaHyV8jj06bsEEH0F_yH2qjEsv6ccE7/view?usp=drive_link",
-        "PledgeBook": "https://drive.google.com/file/d/1WXZ1_ltLb8F8uB4n2JIEC5uSjE8MXqQh/view?usp=drive_link",
-        "CampaignVideo": ""
+        "PledgeBook": "1",
+        "CampaignVideo": "https://youtu.be/32mm135MO5g?si=iV6w3xyg1X8mxKjp"
     },
     {
         "id": 9,

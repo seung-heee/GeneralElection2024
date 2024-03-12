@@ -1,8 +1,9 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import PageTitle from "../components/PageTitle";
 import Candidates from '../json/Candidates.json';
 import ByCandidates from '../json/ByCandidates.json';
 import EmptyCampaignVideo from '../components/EmptyCampaignVideo';
+import CampaignVideo from './CampaignVideo';
 
 export const CandidateContent = () => {
     const location = useLocation();
@@ -46,14 +47,18 @@ export const CandidateContent = () => {
 
 export const ByCandidateContent = () => {
     const location = useLocation();
+    const navigate = useNavigate();
     const title = location.state.title;
 
-    const openManifesto = Manifesto => {
-        window.open(Manifesto, '_blank');
+    const openPledgeBook = (length, title) => {
+        navigate('/by-election/PledgeBook', { state: { length, title } });
     };
 
+    const openCampaignVideo = title => {
+        navigate('/by-election/CampaignVideo', { state: { title } });
+    };
 
-    const openPledgeBook = PledgeBook => {
+    const openManifesto = PledgeBook => {
         window.open(PledgeBook, '_blank');
     };
     return (
@@ -68,10 +73,18 @@ export const ByCandidateContent = () => {
                         <>
                             {candidate.department === title ?
                                 <>
+                                    <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto, title) }}>소견서</button>
+                                    <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook ) }}>공약집</button>
+                                    
                                     <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto) }}>소견서</button>
-                                    <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.PledgeBook) }}>공약집</button>
-                                    <button className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
+                                    <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook, title) }}>공약집</button>
+                                    {/* <button className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
                                         <Link to={candidate.CampaignVideo} target="_blank" className={``}>유세영상</Link>
+                                    </button> */}
+                                    <button
+                                        onClick={()=>{ openCampaignVideo(candidate.CampaignVideo) }}
+                                        className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
+                                        유세영상
                                     </button>
                                 </> : ''}
                         </>

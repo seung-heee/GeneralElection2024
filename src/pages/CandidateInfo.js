@@ -7,6 +7,7 @@ import CandidateContent from "./CandidateContent";
 export const CandidateInfo = () => {
     const location = useLocation();
     const title = location.state.title;
+    
 
     const navigate = useNavigate();
     const HandleContent = (e) => {
@@ -70,7 +71,7 @@ export const ByCandidateInfo = () => {
 
     const navigate = useNavigate();
     const HandleContent = (e) => {
-        navigate('/main-election/CandidateContent', { state: { title: e.target.innerText } });
+        navigate('/by-election/CandidateContent', { state: { title: e.target.innerText } });
     }
 
     return (

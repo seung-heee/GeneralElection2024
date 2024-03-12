@@ -12,6 +12,8 @@ import { CandidateContent, ByCandidateContent } from './pages/CandidateContent';
 import { getCookie, setCookie } from './utils/cookie';
 import { useEffect } from 'react';
 import axios from 'axios';
+import PledgeBook from './pages/PledgeBook';
+import CampaignVideo from './pages/CampaignVideo';
 
 function ByElection() {
   useEffect(() => {
@@ -56,6 +58,8 @@ function ByElection() {
           <Route path='CandidateInfo' element={<ByCandidateInfo />} />
           <Route path='Voting' element={<ByVoting />} />
           <Route path='CandidateContent' element={<ByCandidateContent />} />
+          <Route path='PledgeBook' element={<PledgeBook />} />
+          <Route path='CampaignVideo' element={<CampaignVideo />} />
         </Routes>
       </div>
   );
