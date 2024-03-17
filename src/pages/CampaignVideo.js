@@ -11,7 +11,10 @@ const CampaignVideo = () => {
   return (
     <div className='flex items-center justify-center h-[80vh]'>
       <iframe className='w-full h-[250px] relative z-10' src={`https://www.youtube.com/embed/${videoURL}?autoplay=1&playsinline=1`}
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
+        title="YouTube video player" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+        allowfullscreen></iframe>
     </div>
   );
 };
