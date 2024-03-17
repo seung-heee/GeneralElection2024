@@ -24,7 +24,7 @@
         "role": "Back-End"
     }, {
         "id": 4,
-        "image": "/assets/img/person/박주혁.png",
+        "image": "/assets/img/person/juh.jpg",
         "logo": "/assets/img/logo/선관위.png",
         "name": "박주혁",
         "department": "중어중문학과 17",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "image": "/assets/img/person/김준모.png",
+        "image": "/assets/img/person/junmo.jpg",
         "logo": "/assets/img/logo/선관위.png",
         "name": "김준모",
         "department": "국어국문학과 18",
@@ -41,7 +41,7 @@
         "role": "웹디자인"
     }, {
         "id": 6,
-        "image": "/assets/img/person/김고운.png",
+        "image": "/assets/img/person/yunji.jpg",
         "logo": "/assets/img/logo/선관위.png",
         "name": "황윤지",
         "department": "공연음악예술학부 21",
@@ -49,7 +49,7 @@
         "role": "웹디자인"
     }, {
         "id": 7,
-        "image": "/assets/img/person/김준모.png",
+        "image": "/assets/img/person/hyojin.jpg",
         "logo": "/assets/img/logo/선관위.png",
         "name": "채효진",
         "department": "중어중문학과 22",

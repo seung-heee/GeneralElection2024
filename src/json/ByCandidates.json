@@ -2,11 +2,11 @@
         "id": 1,
         "college": "총학생회",
         "department": "총학생회",
-        "CandidateForDepartment": false,
+        "CandidateForDepartment": null,
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "30",
-        "CampaignVideo": ""
+        "CampaignVideo": "MAQoKTUO_6I"
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "6",
-        "CampaignVideo": ""
+        "CampaignVideo": "1EjSQkzwz3k"
     },
     {
         "id": 4,
@@ -36,7 +36,7 @@
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "6",
-        "CampaignVideo": ""
+        "CampaignVideo": "rGSlcEEiyDU"
     },
     {
         "id": 5,
@@ -46,7 +46,7 @@
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "4",
-        "CampaignVideo": ""
+        "CampaignVideo": "klJW_3l7JIw"
     },
     {
         "id": 6,
@@ -86,7 +86,7 @@
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "3",
-        "CampaignVideo": ""
+        "CampaignVideo": "k06yBiRTzRQ"
     },
     {
         "id": 10,
@@ -96,7 +96,7 @@
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "2",
-        "CampaignVideo": ""
+        "CampaignVideo": "I1crIh_feTE"
     }, {
         "id": 11,
         "college": "인문대학",
@@ -105,6 +105,6 @@
         "number": 1,
         "Manifesto": "3",
         "PledgeBook": "6",
-        "CampaignVideo": ""
+        "CampaignVideo": "iImJ3QJDscg"
     }
 ]

@@ -59,15 +59,13 @@ export const ByCandidateContent = () => {
         navigate('/by-election/Manifesto', { state: { length, title } });
     };
 
-    const openCampaignVideo = title => {
-        navigate('/by-election/CampaignVideo', { state: { title } });
+    const openCampaignVideo = (videoURL, title) => {
+        navigate('/by-election/CampaignVideo', { state: { videoURL, title } });
     };
 
     const openYearPlan = title => {
         navigate('/by-election/YearPlan', { state: { title } });
     };
-
-    
 
     return (
         <div className="relative">
@@ -85,7 +83,7 @@ export const ByCandidateContent = () => {
                             <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook, title) }}>공약집</button>
                             <button className="CandidateBtn0" onClick={() => { openYearPlan(title) }}>1년 계획서</button>
                             <button
-                                onClick={()=>{ openCampaignVideo(candidate.CampaignVideo) }}
+                                onClick={()=>{ openCampaignVideo(candidate.CampaignVideo, title);}}
                                 className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>
                                 유세영상
                             </button>
