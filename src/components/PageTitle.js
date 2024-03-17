@@ -2,7 +2,8 @@ import '../App.css';
 import { images } from '../utils/images';
 
 const PageTitle = ({ title, line }) => {
-    const LineShort = title === '미디어소프트웨어학과' || title === '글로벌경영기술대학' || title === '기독교교육상담학과' || title === '국제개발협력학과'
+    const LineShort = title === '미디어소프트웨어학과' || title === '글로벌경영기술대학' || title === '도시디자인정보공학과' 
+
     return (
         <>
             {line ?

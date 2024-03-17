@@ -1,22 +1,18 @@
 .pbox {
     width: 110px;
-    height: 160px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
     -webkit-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 11px 10px 7px -4px rgba(0, 0, 0, 0.13);
     margin: 5px;
+    padding: 8px;
 }
 
 .Pimg {
     height: 70px;
     width: auto;
     margin-bottom: 11px;
-}
-
-.pbox {
-    padding: 5px;
 }
 
 .pbox span {
@@ -48,8 +44,8 @@
 }
 
 .Pposi {
-    font-size: 9px;
-    margin: 0;
+    font-size: 11px;
+    margin: 1px;
 }
 
 hr {
@@ -57,7 +53,6 @@ hr {
 }
 
 .Prole {
-    margin-top: 5px;
     font-size: 10px;
 }
 

@@ -4,7 +4,7 @@
         "logo": "/assets/img/logo/likelionLogo.png",
         "name": "정택원",
         "department": "컴퓨터공학과 19",
-        "position": "",
+        "position": "운영진",
         "role": "Back-End"
     }, {
         "id": 2,
@@ -12,7 +12,7 @@
         "logo": "/assets/img/logo/likelionLogo.png",
         "name": "노승희",
         "department": "미디어소프트웨어학과 20",
-        "position": "",
+        "position": "대표",
         "role": "Front-End"
     }, {
         "id": 3,
@@ -20,7 +20,7 @@
         "logo": "/assets/img/logo/likelionLogo.png",
         "name": "남민지",
         "department": "컴퓨터공학과 21",
-        "position": "",
+        "position": "운영진",
         "role": "Back-End"
     }, {
         "id": 4,
@@ -29,26 +29,10 @@
         "name": "박주혁",
         "department": "중어중문학과 17",
         "position": "",
-        "role": "전체 총괄"
+        "role": "총괄"
     },
     {
         "id": 5,
-        "image": "/assets/img/person/공윤희.png",
-        "logo": "/assets/img/logo/선관위.png",
-        "name": "공윤희",
-        "department": "미디어소프트웨어학과 21",
-        "position": "",
-        "role": "웹디자인"
-    }, {
-        "id": 6,
-        "image": "/assets/img/person/김고운.png",
-        "logo": "/assets/img/logo/선관위.png",
-        "name": "김고운",
-        "department": "사회복지학과 21",
-        "position": "",
-        "role": "웹디자인"
-    }, {
-        "id": 7,
         "image": "/assets/img/person/김준모.png",
         "logo": "/assets/img/logo/선관위.png",
         "name": "김준모",
@@ -56,11 +40,19 @@
         "position": "",
         "role": "웹디자인"
     }, {
-        "id": 8,
-        "image": "/assets/img/person/임정엽.png",
+        "id": 6,
+        "image": "/assets/img/person/김고운.png",
         "logo": "/assets/img/logo/선관위.png",
-        "name": "임정엽",
-        "department": "사회복지학과 20",
+        "name": "황윤지",
+        "department": "공연음악예술학부 21",
+        "position": "",
+        "role": "웹디자인"
+    }, {
+        "id": 7,
+        "image": "/assets/img/person/김준모.png",
+        "logo": "/assets/img/logo/선관위.png",
+        "name": "채효진",
+        "department": "중어중문학과 22",
         "position": "",
         "role": "웹디자인"
     }

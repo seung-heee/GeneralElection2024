@@ -19,7 +19,7 @@ const ByTurnout = () => {
     // 업데이트 일시
     const refresh = async () => {
         try {
-            const response = await APIClient().get('/refresh/');
+            const response = await APIClient().get('/by-election/refresh/');
             setUpdateDate(response.data.date);
             setUpdateTime(response.data.time);
         } catch (error) {
@@ -30,7 +30,7 @@ const ByTurnout = () => {
     // 투표율
     const rate = async () => {
         try {
-            const response = await APIClient().get('/rate/');
+            const response = await APIClient().get('/by-election/rate/');
             setVoteRates(response.data);
         } catch (error) {
             console.error(error);
