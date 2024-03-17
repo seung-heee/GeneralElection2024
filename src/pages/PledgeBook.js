@@ -12,9 +12,9 @@ const PledgeBook = () => {
   const title = location.state.title;
 
   const slides = Array.from({ length: length }).map(
-    (el, index) => process.env.PUBLIC_URL + `/assets/img/ByImg/PledgeBook/${title}${index}.png`
+    (el, index) => process.env.PUBLIC_URL + `/assets/img/byImg/PledgeBook/${title}${index}.png`
   );
-
+  
   return (
     <Swiper modules={[Virtual]} spaceBetween={50} slidesPerView={1} virtual>
       {slides.map((slideContent, index) => (

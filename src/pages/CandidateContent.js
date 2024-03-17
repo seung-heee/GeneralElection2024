@@ -51,15 +51,20 @@ export const ByCandidateContent = () => {
     const title = location.state.title;
 
     const openPledgeBook = (length, title) => {
+        console.log(length, title)
         navigate('/by-election/PledgeBook', { state: { length, title } });
     };
 
     const openManifesto = (length, title) => {
-        navigate('/by-election/Manifesto', { state: { title } });
+        navigate('/by-election/Manifesto', { state: { length, title } });
     };
 
     const openCampaignVideo = title => {
         navigate('/by-election/CampaignVideo', { state: { title } });
+    };
+
+    const openYearPlan = title => {
+        navigate('/by-election/YearPlan', { state: { title } });
     };
 
     
@@ -78,6 +83,7 @@ export const ByCandidateContent = () => {
                             <>
                             <button className="CandidateBtn0" onClick={() => { openManifesto(candidate.Manifesto, title) }}>소견서</button>
                             <button className="CandidateBtn0" onClick={() => { openPledgeBook(candidate.PledgeBook, title) }}>공약집</button>
+                            <button className="CandidateBtn0" onClick={() => { openYearPlan(title) }}>1년 계획서</button>
                             <button
                                 onClick={()=>{ openCampaignVideo(candidate.CampaignVideo) }}
                                 className={`CandidateBtn0 ${candidate.CampaignVideo == "" ? 'hidden' : ''}`}>

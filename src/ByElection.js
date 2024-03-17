@@ -15,6 +15,7 @@ import axios from 'axios';
 import PledgeBook from './pages/PledgeBook';
 import CampaignVideo from './pages/CampaignVideo';
 import Manifesto from './pages/Manifesto';
+import YearPlan from './pages/YearPlan';
 
 function ByElection() {
   useEffect(() => {
@@ -62,6 +63,7 @@ function ByElection() {
           <Route path='PledgeBook' element={<PledgeBook />} />
           <Route path='CampaignVideo' element={<CampaignVideo />} />
           <Route path='Manifesto' element={<Manifesto />} />
+          <Route path='YearPlan' element={<YearPlan />} />
         </Routes>
       </div>
   );
