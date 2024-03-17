@@ -21,7 +21,6 @@ const PledgeBook = () => {
 
   return (
     <Swiper modules={[Navigation, Pagination, Virtual]} spaceBetween={50} slidesPerView={1} virtual navigation>
-
       <IoIosArrowDropleft  className='absolute top-[40%] z-20 left-2' size={20}/>
       {slides.map((slideContent, index) => (
         <>
@@ -30,7 +29,7 @@ const PledgeBook = () => {
           </SwiperSlide>
         </> 
       ))}
-      <IoIosArrowDropright className='absolute top-[40%] z-20 right-2'  size={20}/>
+      <IoIosArrowDropright className='absolute top-[40%] z-20 right-2' size={20}/>
     </Swiper>
   );
 };

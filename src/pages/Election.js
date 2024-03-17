@@ -43,7 +43,8 @@ export const ByElectionPage = () => {
                     </div>
                     <div>
                         <p className="Subtitle">-필수사항-</p>
-                        <p>모바일학생증</p>
+                        <p>실물 학생증</p>
+                        <p>모바일 학생증</p>
                     </div>
                 </div>
                 <div className="bottomText fixed text-center left-0 right-0 bottom-1">제40대선거관리위원회</div>

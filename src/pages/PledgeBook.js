@@ -6,6 +6,9 @@ import 'swiper/css';
 import { useLocation } from 'react-router-dom';
 import ByCandidates from '../json/ByCandidates.json';
 
+import { IoIosArrowDropright } from "react-icons/io";
+import { IoIosArrowDropleft } from "react-icons/io";
+
 const PledgeBook = () => {
   const location = useLocation();
   const length = location.state.length;
@@ -17,11 +20,13 @@ const PledgeBook = () => {
   
   return (
     <Swiper modules={[Virtual]} spaceBetween={50} slidesPerView={1} virtual>
-      {slides.map((slideContent, index) => (
-        <SwiperSlide key={slideContent} virtualIndex={index}>
-          <img key={index} src={slideContent} />
-        </SwiperSlide>
-      ))}
+      <IoIosArrowDropleft  className='absolute top-[40%] z-20 left-2' size={20}/>
+        {slides.map((slideContent, index) => (
+          <SwiperSlide key={slideContent} virtualIndex={index}>
+            <img key={index} src={slideContent} />
+          </SwiperSlide>
+        ))}
+      <IoIosArrowDropright className='absolute top-[40%] z-20 right-2'  size={20}/>
     </Swiper>
   );
 };

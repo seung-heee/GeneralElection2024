@@ -15,5 +15,5 @@ export const images = {
     
     // 보궐선거
     "Bymap": PATH + '/assets/img/byImg/Bymap1.png',
-    "BymapBottom": PATH + '/assets/img/byImg/BymapBottom.png',
+    "BymapBottom": PATH + '/assets/img/byImg/BymapBottom.png'
 };
