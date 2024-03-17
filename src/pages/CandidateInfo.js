@@ -8,7 +8,6 @@ export const CandidateInfo = () => {
     const location = useLocation();
     const title = location.state.title;
     
-
     const navigate = useNavigate();
     const HandleContent = (e) => {
         navigate('/main-election/CandidateContent', { state: { title: e.target.innerText } });
@@ -69,6 +68,13 @@ export const ByCandidateInfo = () => {
     const location = useLocation();
     const title = location.state.title;
 
+    const departments = ByCandidates
+    .filter(candidate => candidate.college === title)
+    .map(candidate => candidate.department);
+
+    const hiddenTitle = departments.length == 1 && title != 'IT공과대학'
+    console.log(hiddenTitle)
+
     const navigate = useNavigate();
     const HandleContent = (e) => {
         navigate('/by-election/CandidateContent', { state: { title: e.target.innerText } });
@@ -82,7 +88,8 @@ export const ByCandidateInfo = () => {
 
             <div className="w-10/12 text-center break-keep mx-auto">2024 보궐선거 <span className="pointColor">{title} 입후보자</span> 소견서와 공약집을 보실 수 있습니다.</div>
             <div>
-                <div className="Subtitle text-center">-단과대학-</div>
+                {title === '사회과학대학' || title === '글로벌경영기술대학' || title === '신학대학' ?
+                <div className="Subtitle text-center">-단과대학-</div> : null }
                 <div className="flex flex-col justify-center items-center">
                     {ByCandidates.map((candidate) => {
                         return (
@@ -99,7 +106,8 @@ export const ByCandidateInfo = () => {
                 </div >
             </div>
             <div>
-                <div className="Subtitle text-center">-학부(과)-</div>
+                {hiddenTitle ? null : <div className="Subtitle text-center">-학부(과)-</div>}
+                
                 <div className="flex flex-col justify-center items-center">
                     {ByCandidates.map((candidate) => {
                         return (

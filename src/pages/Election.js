@@ -32,7 +32,7 @@ export const ByElectionPage = () => {
             <div className="relative">
                 <div className="flex flex-col items-center justify-center text-center">
                     <PageTitle title={'보궐선거란?'} line={false} />
-                    <div className="p-6 break-keep">2024년 새로이 설립될 성결대학교의 총학생자치기구(총학생회, 7단과대학 학생회, 학부(과) 학생회)를 학우들의 의견으로 직접 선출하기 위해 진행되는 선거</div>
+                    <div className="p-6 break-keep"> 2024년 총선거에서 미당선된 성결대학교의 학생회(총학생회, 단과대학 학생회, 학부(과) 학생회)를 대상으로 이루어지는 선거입니다.</div>
                     <div>
                         <p className="Subtitle">-일시-</p>
                         <p>2024.03.25-03.27 <br />10:00-20:00</p>

@@ -14,6 +14,6 @@ export const images = {
     Pagetitle: PATH + '/assets/img/Pagetitle.png',
     
     // 보궐선거
-    "Bymap": PATH + '/assets/img/byImg/Bymap.png',
+    "Bymap": PATH + '/assets/img/byImg/Bymap1.png',
     "BymapBottom": PATH + '/assets/img/byImg/BymapBottom.png',
 };
