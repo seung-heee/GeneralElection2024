@@ -45,11 +45,11 @@ export const images = {
     },
 
     // 보궐선거
-    "Bymap": PATH + '/assets/img/ByImg/Bymap.png',
-    "BymapBottom": PATH + '/assets/img/ByImg/BymapBottom.png',
+    "Bymap": PATH + '/assets/img/byImg/Bymap.png',
+    "BymapBottom": PATH + '/assets/img/byImg/BymapBottom.png',
 
-    "inmon0": PATH + '/assets/img/ByImg/PledgeBook/inmon0.png',
-    "inmon1": PATH + '/assets/img/ByImg/PledgeBook/inmon1.png',
-    "jongmon0": PATH + '/assets/img/ByImg/PledgeBook/inmon1.png',
-    "jongmon1": PATH + '/assets/img/ByImg/PledgeBook/inmon1.png',
+    "inmon0": PATH + '/assets/img/byImg/PledgeBook/inmon0.png',
+    "inmon1": PATH + '/assets/img/byImg/PledgeBook/inmon1.png',
+    "jongmon0": PATH + '/assets/img/byImg/PledgeBook/inmon1.png',
+    "jongmon1": PATH + '/assets/img/byImg/PledgeBook/inmon1.png',
 };
