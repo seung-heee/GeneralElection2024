@@ -30,7 +30,7 @@ export const CandidateInfo = () => {
                                 {title === candidate.college && title === candidate.department ? (
                                     <>
                                         {candidate.Manifesto === "" ? (
-                                            '입후보자가 없습니다.'
+                                            '입후보자 정보가 없습니다.'
                                         ) : (
                                             <button className="CandidateBtn" onClick={(e) => { HandleContent(e) }}>{title}</button>
                                         )}
@@ -89,11 +89,9 @@ export const ByCandidateInfo = () => {
                             <>
                             {title === candidate.college && title === candidate.department ? (
                                 <>
-                                    {candidate.Manifesto === "" ? (
-                                        '입후보자가 없습니다.'
-                                    ) : (
+                                    {candidate.Manifesto !== "" ? (
                                         <button className="CandidateBtn" onClick={(e) => { HandleContent(e) }}>{title}</button>
-                                    )}
+                                    ) : ('입후보자가 없습니다.')}
                                 </>) : null}
                             </>
                         )
@@ -108,11 +106,13 @@ export const ByCandidateInfo = () => {
                             <>
                                 {title === candidate.college ?
                                     <>
-                                        <button
-                                            onClick={(e) => { HandleContent(e) }}
-                                            className={`${candidate.department === candidate.college ? "hidden" : ''} CandidateBtn`}>
-                                            {candidate.department}
-                                        </button>
+                                    {candidate.Manifesto !== '' ? (
+                                    <button
+                                        onClick={(e) => { HandleContent(e) }}
+                                        className={`${candidate.department === candidate.college ? "hidden" : ''} CandidateBtn`}>
+                                        {candidate.department}
+                                    </button> 
+                                    ) : '입후보자가 없습니다.'}
                                     </> : <></>}
                             </>
                         )

@@ -12,44 +12,8 @@ export const images = {
     LikelionLogo: PATH + '/assets/img/logo/likelionLogo.png',
     선관위: PATH + '/assets/img/logo/선관위.png',
     Pagetitle: PATH + '/assets/img/Pagetitle.png',
-    // 공약집
-    공약집: {
-        사범대학: {
-            사범_공약1: PATH + '/assets/img/PledgeBook/사범대학/사범_공약1.png',
-            사범_공약2: PATH + '/assets/img/PledgeBook/사범대학/사범_공약2.png',
-            사범_공약3: PATH + '/assets/img/PledgeBook/사범대학/사범_공약3.png',
-            사범_공약4: PATH + '/assets/img/PledgeBook/사범대학/사범_공약4.png',
-            사범_공약5: PATH + '/assets/img/PledgeBook/사범대학/사범_공약5.png',
-            사범_공약6: PATH + '/assets/img/PledgeBook/사범대학/사범_공약6.png'
-        },
-        인문대학: {
-            인문_공약1: PATH + '/assets/img/PledgeBook/인문대학/인문_공약1.png',
-        }
-    },
-    // 소견서
-    소견서: {
-        사범대학: {
-            사범_공약1: PATH + '/assets/img/소견서 예시/사범대학/사범_소견1.png',
-            사범_공약2: PATH + '/assets/img/소견서 예시/사범대학/사범_소견2.png',
-            사범_공약3: PATH + '/assets/img/소견서 예시/사범대학/사범_소견3.png'
-        },
-        인문대학: {
-            인문_공약1: PATH + '/assets/img/소견서 예시/인문대학/인문_소견1.png'
-        }
-    },
-    // 유세영상
-    유세영상: {
-        인문대학: {
-            인문_영상: PATH + '/assets/video/인문영상.mp4'
-        }
-    },
-
+    
     // 보궐선거
     "Bymap": PATH + '/assets/img/byImg/Bymap.png',
     "BymapBottom": PATH + '/assets/img/byImg/BymapBottom.png',
-
-    "inmon0": PATH + '/assets/img/byImg/PledgeBook/inmon0.png',
-    "inmon1": PATH + '/assets/img/byImg/PledgeBook/inmon1.png',
-    "jongmon0": PATH + '/assets/img/byImg/PledgeBook/inmon1.png',
-    "jongmon1": PATH + '/assets/img/byImg/PledgeBook/inmon1.png',
 };
