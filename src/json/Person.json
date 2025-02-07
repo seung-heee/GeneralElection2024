@@ -55,5 +55,32 @@
         "department": "중어중문학과 22",
         "position": "",
         "role": "웹디자인"
+    },
+    {
+        "id": 8,
+        "image": "/assets/img/person/공윤희.png",
+        "logo": "/assets/img/logo/선관위.png",
+        "name": "공윤희",
+        "department": "미디어소프트웨어학과 21",
+        "position": "",
+        "role": "웹디자인, 기획"
+    },
+    {
+        "id": 9,
+        "image": "/assets/img/person/임정엽.png",
+        "logo": "/assets/img/logo/선관위.png",
+        "name": "임정엽",
+        "department": "사회복지학과 20",
+        "position": "",
+        "role": "웹디자인"
+    },
+    {
+        "id": 10,
+        "image": "/assets/img/person/김고운.png",
+        "logo": "/assets/img/logo/선관위.png",
+        "name": "김고운",
+        "department": "사회복지학과 21",
+        "position": "",
+        "role": "웹디자인"
     }
 ]
