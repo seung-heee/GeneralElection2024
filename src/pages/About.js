@@ -1,5 +1,5 @@
 import BottomTextOnly from "../components/BottomTextOnly";
-import ElectionCommission from "../components/ElectionCommission";
+import {ElectionCommission, ByElectionCommission} from "../components/ElectionCommission";
 import LikelionPeople from "../components/LikelionPeople";
 import PageTitle from "../components/PageTitle";
 import ScrollToTop from "../components/ScrollToTop";
@@ -61,7 +61,7 @@ export const ByAbout = () => {
                 </div>
 
                 <LikelionPeople />
-                <ElectionCommission />
+                <ByElectionCommission />
             </div>
             <div className="bottomText absolute text-center left-0 right-0 bottom-1">제40대선거관리위원회</div><BottomTextOnly />
             <ScrollToTop />
