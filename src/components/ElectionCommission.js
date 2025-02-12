@@ -13,6 +13,8 @@ export const ElectionCommission = () => {
             </div>
 
             <div className="grid grid-cols-2 mb-16">
+                <Person id={4} />
+                <Person id={5} />
                 <Person id={8} />
                 <Person id={9} />
                 <Person id={10} />
